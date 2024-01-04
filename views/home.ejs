@@ -1,0 +1,10 @@
+<%- include('partials/header') -%>
+
+<div class="container mt-5">
+  <h1>Welcome, <%- user.firstName %>!</h1>
+  <p>Your email is: <%- user.email %></p>
+  <!-- Additional user data display as needed -->
+  <a href="/logout" class="btn btn-warning">Logout</a>
+</div>
+
+<%- include('partials/footer') -%>
